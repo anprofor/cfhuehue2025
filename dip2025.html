@@ -1137,40 +1137,7 @@
               </p>
             
 
-            <h1>Buscar Archivos</h1>
-  <input type="text" id="buscar" placeholder="Escribe para buscar archivos...">
-
-  <ul id="listaArchivos">
-       <tr>
-                        <td><a href="dipl2025/vardiplo_252.pdf">wilsonomaralvarado@gmail.com </a></td>
-                    </tr>   
-                    <tr>
-                        <td><a href="dipl2025/vardiplo_253.pdf">milton.hinojosa@cip.org.pe </a></td>
-                    </tr>  
-    <li><a href="archivos/diploma_juan.pdf" download>Diploma_Juan.pdf</a></li>
-    <li><a href="archivos/diploma_ana.pdf" download>Diploma_Ana.pdf</a></li>
-    <li><a href="archivos/informe_final.docx" download>Informe_Final.docx</a></li>
-    <li><a href="archivos/reporte_excel.xlsx" download>Reporte_Excel.xlsx</a></li>
-    <li><a href="archivos/manual_usuario.pdf" download>Manual_Usuario.pdf</a></li>
-  </ul>
-
-  <script>
-    const inputBuscar = document.getElementById("buscar");
-    const lista = document.getElementById("listaArchivos");
-    const elementos = lista.getElementsByTagName("li");
-
-    inputBuscar.addEventListener("keyup", function() {
-      const filtro = inputBuscar.value.toLowerCase();
-      for (let i = 0; i < elementos.length; i++) {
-        const texto = elementos[i].textContent.toLowerCase();
-        elementos[i].style.display = texto.includes(filtro) ? "" : "none";
-      }
-    });
-  </script>
-
-
-
-          
+                 
 
           
         </div>
